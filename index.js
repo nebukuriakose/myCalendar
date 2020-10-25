@@ -8,5 +8,14 @@ function onChatBotReady() {
     btn.appendChild(document.createTextNode(btnName));
     btn.style.display = 'inline-block';
   }
-
+  
+function sendResponse() {
+  event.preventDefault();
+  console.log("Button Click and your work")
+  setTimeout(() => {
+    BotStarWebview('sendResponse', "", {}, 'Button Clicked').catch((err) => {
+      console.log(err);
+    });
+  }, 0);
+}
 
