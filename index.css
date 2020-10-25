@@ -28,7 +28,6 @@ body {
   background-color: #fafafa;
 }
 
-#my_iFrame:focus {
-  outline: none;
+#my_iFrame{
   width:100%;
 }
