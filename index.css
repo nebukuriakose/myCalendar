@@ -30,6 +30,5 @@ body {
 
 #my_iFrame:focus {
   outline: none;
-  display: block;
-  width:100%
+  width:100%;
 }
