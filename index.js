@@ -11,10 +11,8 @@ function onChatBotReady() {
 
 function sendResponse() {
   event.preventDefault();
-  console.log("Button Click and your work")
-  setTimeout(() => {
-    BotStarWebview('sendResponse', "", {}, 'Button Clicked').catch((err) => {
+
+  BotStarWebview('sendResponse', "", {}, 'Button Clicked').catch((err) => {
       console.log(err);
-    });
-  }, 2000);
+   });
 }
