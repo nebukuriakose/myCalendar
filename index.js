@@ -1,6 +1,3 @@
-var player;
-var videoId;
-
 function onChatBotReady() {
 
   // You have to define HTML meta "bs:input:buttonName" in order to inform bot send data to buttonName parameter webview
