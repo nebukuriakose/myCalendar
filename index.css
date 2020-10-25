@@ -28,10 +28,8 @@ body {
   background-color: #fafafa;
 }
 
-iframe:focus {
+#my_iFrame:focus {
   outline: none;
-}
-iframe[seamless] {
   display: block;
   width:100%
 }
