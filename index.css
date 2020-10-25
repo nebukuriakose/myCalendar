@@ -27,11 +27,8 @@ body {
 #btn:hover {
   background-color: #fafafa;
 }
-
-iframe:focus {
-  outline: none;
-}
-
+  
 iframe[seamless] {
   display: block;
+  width:100%
 }
