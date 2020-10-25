@@ -11,16 +11,6 @@ body {
   border-radius: 10px;
 }
 
-#container {
-  overflow: hidden;
-}
-
-.my_frame {
-width:100%;
-height:700px;
-}
-
-
 #btn {
   display: none;
   padding: 12px 20px;
