@@ -16,5 +16,5 @@ function sendResponse() {
     BotStarWebview('sendResponse', "", {}, 'Button Clicked').catch((err) => {
       console.log(err);
     });
-  }, 1000);
+  }, 2000);
 }
