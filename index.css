@@ -11,8 +11,16 @@ body {
   border-radius: 10px;
 }
 
+#player,
 #btn {
   text-align: center;
+}
+
+#player {
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #btn {
@@ -27,4 +35,5 @@ body {
 #btn:hover {
   background-color: #fafafa;
 }
+
 
