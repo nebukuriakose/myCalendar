@@ -11,6 +11,11 @@ body {
   border-radius: 10px;
 }
 
+#container {
+  width: 95%;
+  overflow: hidden;
+}
+
 
 #btn {
   display: none;
