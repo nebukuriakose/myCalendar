@@ -15,13 +15,6 @@ body {
   text-align: center;
 }
 
-#player {
-  min-height: 340px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 #btn {
   display: none;
   padding: 12px 20px;
